@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  border: 1px black solid;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  
+  
+}
+
+h1 {
+  margin-bottom: 20px;
+
+}
+
+#datetime {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#searchForm {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#cityInput {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#searchForm button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#result {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#temperature {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#temperature span {
+  cursor: pointer;
+}
+
+#temperature span:hover {
+  text-decoration: underline;
+}
